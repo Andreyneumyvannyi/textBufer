@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>TEST</title>
+  </head>
+  <body>
+    <h1 class="title">Кликай по кнопкам и текст будет скопирован в буфер</h1>
+    <div class="text__block">
+      <p class="text" id="text">Текст №1 для буфера</p>
+      <p class="text" id="text1">Текст №2 для буфера</p>
+      <p class="text" id="text2">Текст №3 для буфера</p>
+      <p class="text" id="text3">Текст №4 для буфера</p>
+      <p class="text" id="text4">Текст №5 для буфера</p>
+    </div>
+
+    <div class="modal">
+      <button class="close">Close</button>
+      <label class="label"
+        >Вы скопировали текст. Вставить скопированный текст с помощью
+        CTRL+V</label
+      >
+      <input type="text" class="input" />
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="test.js"></script>
+  </body>
+</html>
